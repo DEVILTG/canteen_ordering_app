@@ -7,4 +7,4 @@ I should warn you that this project has some minor bugs and errors, so if u enco
 
 If you need any type of help with downloading and running this project feel free to text me on my instagram @animelover_devil or telegram @animelover_devil.
 
-All the codes are written by (Devil)[https://github.com/DEVILTG].
+All the codes are written by ]Devil](https://github.com/DEVILTG).
