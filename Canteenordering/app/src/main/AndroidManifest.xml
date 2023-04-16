@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.canteen_ordering">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CanteenOrdering"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".menu"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.menu" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".samosa_orders"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.samosa_orders" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".billing_activity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.billing_activity" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".bread_pakoda_activity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.bread_pakoda_activity" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".aaloo_poha_activity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.aaloo_poha_activity" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".sprite_activity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.sprite_activity" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".coke_activity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.coke_activity" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".sting_activity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.sting_activity" />
+
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

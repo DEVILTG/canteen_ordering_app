@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffebcc"
+    >
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="30dp"/>
+
+    <ImageView
+        android:id="@+id/samosa"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/samosa"
+        app:layout_constraintRight_toLeftOf="@id/bread_pakoda"
+        app:layout_constraintTop_toBottomOf="@id/head"
+
+        />
+
+    <TextView
+        android:id="@+id/sam_prrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full plate = 25rs\nhalf plate = 15rs"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/samosa"
+        app:layout_constraintLeft_toLeftOf="@id/samosa"
+        app:layout_constraintRight_toRightOf="@id/samosa"
+
+        />
+
+    <ImageView
+        android:id="@+id/bread_pakoda"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/breadpakoda"
+        app:layout_constraintLeft_toRightOf="@id/samosa"
+        app:layout_constraintTop_toBottomOf="@id/head"
+
+        />
+
+    <TextView
+        android:id="@+id/pak_prrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full plate = 25rs\nhalf plate = 15rs"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/bread_pakoda"
+        app:layout_constraintLeft_toLeftOf="@id/bread_pakoda"
+        app:layout_constraintRight_toRightOf="@id/bread_pakoda"
+
+        />
+
+    <ImageView
+        android:id="@+id/aaloo_poha"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/aaloopoha"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@id/samosa"
+        app:layout_constraintRight_toLeftOf="@id/sprite"
+        app:layout_constraintRight_toRightOf="@id/samosa"
+        app:layout_constraintTop_toBottomOf="@id/sam_prrr" />
+
+    <TextView
+        android:id="@+id/aaloo_prrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full plate = 25rs\nhalf plate = 15rs"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/aaloo_poha"
+        app:layout_constraintLeft_toLeftOf="@id/aaloo_poha"
+        app:layout_constraintRight_toRightOf="@id/aaloo_poha"
+
+        />
+
+    <ImageView
+        android:id="@+id/sprite"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/sprite"
+        app:layout_constraintLeft_toRightOf="@id/samosa"
+        app:layout_constraintTop_toBottomOf="@id/pak_prrr" />
+
+    <TextView
+        android:id="@+id/sprite_prrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottle = 25rs"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/sprite"
+        app:layout_constraintLeft_toLeftOf="@id/sprite"
+        app:layout_constraintRight_toRightOf="@id/sprite"
+
+        />
+
+    <ImageView
+        android:id="@+id/coke"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/coke"
+        app:layout_constraintLeft_toLeftOf="@id/samosa"
+        app:layout_constraintRight_toLeftOf="@id/sting"
+        app:layout_constraintRight_toRightOf="@id/samosa"
+        app:layout_constraintTop_toBottomOf="@id/aaloo_prrr" />
+
+    <TextView
+        android:id="@+id/coke_prrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Can = 30rs"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/coke"
+        app:layout_constraintLeft_toLeftOf="@id/coke"
+        app:layout_constraintRight_toRightOf="@id/coke"
+
+        />
+
+    <ImageView
+        android:id="@+id/sting"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/sting"
+        app:layout_constraintLeft_toRightOf="@id/samosa"
+        app:layout_constraintTop_toBottomOf="@id/aaloo_prrr"
+        />
+
+    <TextView
+        android:id="@+id/sting_prrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottle = 25rs"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/sting"
+        app:layout_constraintLeft_toLeftOf="@id/sting"
+        app:layout_constraintRight_toRightOf="@id/sting"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
